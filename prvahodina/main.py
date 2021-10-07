@@ -1,7 +1,16 @@
 print("ahoj svet")
 
 x = 5
-vysledok = x * x
-vysledok = x * 4
-print("obsah x*x:" ,vysledok)
-print(o)
+obsah = x * x
+obvod = x * 4
+print("obsah x*x:", obsah)
+print("obvod x*4:", obvod)
+
+x = 20
+y = 10
+
+z = x
+x = y
+y = z
+print("x =", x)
+print("y = ", y)
