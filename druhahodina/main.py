@@ -146,7 +146,7 @@ if pocet_samohlasok > 0:
     print("slovo obsahuje samohlasky", pocet_samohlasok)
 else:
     print("slovo neobsahuje spoluhlasku")
-""" 
+"""
 
 
 
