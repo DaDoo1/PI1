@@ -16,7 +16,7 @@ t.setheading()
 
 def stvorec():
     for i in range(8):
-        
+
     poziciax = randrange(50, 100)
     poziciay = randrange(50, 100)
 
