@@ -23,7 +23,7 @@ else:
 #vysledok = 1 != 2
 #print(vysledok)
 
-"""
+"""""
 vek = int(input("zadaj svoj vek: "))
 if vek >= 18:
     print("mas dost rokov, vstup dalej")
@@ -31,7 +31,7 @@ if vek >= 18:
 else:
     print("vstup zakazany, si moc mlady")
 print("tento kod sa vykona vzdy")
-"""
+""""
 
 """
 day = 5
@@ -65,6 +65,9 @@ if username == "root" and password == "password" and vek == "18":
 else:
     print("zle meno alebo heslo alebo vek")
 """
+
+
+
 
 
 

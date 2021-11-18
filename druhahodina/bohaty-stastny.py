@@ -1,3 +1,5 @@
+
+"""""
 otazkasiStastny = input("si stastny ? ")
 otazkasiBohaty = input("si bohaty ? ")
 
@@ -11,6 +13,7 @@ else:
         print("skus sa viac usmievat")
     else:
         print("sorry je mi to luto")
+"""""
 
 
 
