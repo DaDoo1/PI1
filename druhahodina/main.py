@@ -63,8 +63,100 @@ vek = input("zadaj svoj vek: ")
 if username == "root" and password == "password" and vek == "18":
     print("uspesne si sa prihlasil!")
 else:
-    print("zle meno alebo heslo alebo vek")
+    print("zle meno alebo heslo alebo
 """
+""""
+cislo = 1
+while (cislo <= 10)
+print(cislo)
+cislo = cislo
+"""
+
+"""""
+start = 10
+koniec = 0
+while start >= koniec:
+    if start == 5:
+        start -= 1
+    continue
+    print(start)
+    start -= 1
+
+start = 10
+while start >= koniec:
+    if start == 5:
+        break
+    print(start)
+    start -= 1
+"""""
+
+"""""
+start = int(input("Zadaj odkial začnem počítat"))
+koniec = int(input("Zadaj pokial budem pocitat"))
+while(start < koniec):
+    if(start % 3 == 0):
+        print(start, "je nasobok 3ky")
+    start += 1
+ """""
+"""""
+for premena in range(10)
+    print(premena)
+"""""
+
+"""""
+cislo = "123456789"
+spoluhlasky = "dtnlkghchďťňľčšdzdžžjbmprvzsf"
+samohlasky = "aáeéiíouúyý"
+slovo = input("zadajte slovo")
+pocet_spoluhlasok = 0
+pocet_samohlasok = 0
+pocet_cisel = 0
+pocet_znakov = 0
+for znak in slovo:
+     if znak in samohlasky:
+        pocet_samohlasok += 1
+     if znak in spoluhlasky:
+        pocet_spoluhlasok += 1
+     if znak in cislo:
+        pocet_cisel += 1
+     else:
+        pocet_znakov +=1
+
+
+
+if pocet_znakov > 0:
+    print("slovo obsahuje ine znaky" , pocet_znakov)
+else:
+    print("slovo neobsahuje ine znaky")
+
+
+
+if pocet_cisel > 0:
+    print("slovo obsahuje cislo" , pocet_cisel)
+else:
+    print("slovo neobsahuje cislo")
+
+if pocet_spoluhlasok > 0:
+    print("slovo obsahuje spoluhlasky" , pocet_spoluhlasok)
+else:
+    print("slovo neobsahuje samohlasku")
+
+
+if pocet_samohlasok > 0:
+    print("slovo obsahuje samohlasky", pocet_samohlasok)
+else:
+    print("slovo neobsahuje spoluhlasku")
+"""
+
+
+
+
+
+
+
+
+
+
 
 
 
