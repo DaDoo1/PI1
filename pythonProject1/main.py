@@ -1,43 +1,46 @@
-"""
-cisla = [4, 5, 6, 7]
-print(cisla[3])
+def koniec():
+    if otazka == "koniec":
+        return True
+    else:
+        return False
 
 
-pole = [
-    [1,2,3]
-    [4,5,6]
-    [7,8,9]
-]
+while True:
+    pocitadlo = 0
 
-print(pole[1][1])
-pole[0].append(99)
-"""
+    print("A - Fico")
+    print("B - Tesla")
+    print("C - Gates")
+    print("D - Musk")
 
-"""
-def vypisKinosalu(kinosala):
-    for riadok in kinosala:
-        print(riadok)
+    otazka = input("kto vynasiel teslu ? ")
 
+    if koniec():
+        break
 
+    if otazka.lower() == "d":
+        print("mas to dobre presiel si")
+        pocitadlo += 1
+    else:
+        print("zadal si zlu odpoved")
+        pocitadlo -= 1
 
-kinosala =[]
+    print("A - 24")
+    print("B - 15")
+    print("C - 6")
+    print("D - 48")
 
-for i in range(5):
-    temp = []
-    for i in range(10):
-        temp.append(0)
-    kinosala.append(temp)
+    otazka2 = input("Kolko hodin ma den? ")
 
+    if otazka2 == "koniec":
+        break
 
-print(kinosala)
+    if otazka2.lower() == "a":
+        print("mas to dobre")
+        pocitadlo += 1
+    else:
+        print("nemas to dobre")
+        pocitadlo -= 1
 
-
-vypisKinosalu(kinosala)
-print()
-kinosala[0][5] = 1
-kinosala[2][4] = 1
-kinosala[1][3] = 1
-vypisKinosalu(kinosala)
-"""
-
-
+    print("Quiz skoncil, pocet spravnych odpovedi:", pocitadlo)
+    break
